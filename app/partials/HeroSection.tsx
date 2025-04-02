@@ -17,15 +17,16 @@ export default function HeroSection({
 }: HeroSectionProp) {
   return (
     <main className="flex-1 flex flex-col items-center justify-center px-4 z-10">
-      <div className="w-full mx-auto text-center mt-14">
+      <div className="max-w-5xl mx-auto text-center mt-12">
         <motion.h1
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-6xl font-bold text-white mb-6"
+          className="text-4xl md:text-6xl font-bold text-white mb-2"
         >
-          AI-Powered Professionals for the Future Of Work
-          <div className="relative inline-block w-full my-3">
+          AI-Powered Professionals 
+          <span className="text-3xl md:text-[53px]"> for the Future Of Work</span>
+          <div className="relative inline-block w-full">
             <motion.span
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -34,7 +35,7 @@ export default function HeroSection({
                 repeatType: "reverse",
                 duration: 1.5,
               }}
-              className="absolute left-0 right-0 text-center "
+              className="absolute left-0 right-0 text-center mt-2.5  text-3xl md:text-[48px]"
             >
               Coming Soon
             </motion.span>
@@ -53,7 +54,7 @@ export default function HeroSection({
           deliverables.
         </motion.p>
 
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-10 w-5/6 mx-auto">
           {[
             { value: "3x", label: "Faster Project Complettion" },
             { value: "30%", label: "Less Cost Per Project" },
@@ -69,7 +70,7 @@ export default function HeroSection({
                 boxShadow: "0 0 20px rgba(78, 204, 163, 0.3)",
                 transition: { duration: 0.2 },
               }}
-              className="relative rounded-lg border border-[#1A5F4C] bg-[#0A1A18] p-6 backdrop-blur-sm"
+              className="relative rounded-lg border border-[#1A5F4C] bg-[#0A1A18] p-6 backdrop-blur-sm flex-1"
             >
               <motion.div
                 initial={{ scale: 0.5, opacity: 0 }}
