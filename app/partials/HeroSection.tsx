@@ -17,14 +17,14 @@ export default function HeroSection({
 }: HeroSectionProp) {
   return (
     <main className="flex-1 flex flex-col items-center justify-center px-4 z-10">
-      <div className="w-full mx-auto text-center">
+      <div className="w-full mx-auto text-center mt-14">
         <motion.h1
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-6xl font-bold text-white mb-6"
         >
-          AI-Powered Project Management
+          AI-Powered Professionals for the Future Of Work
           <div className="relative inline-block w-full my-3">
             <motion.span
               initial={{ opacity: 0 }}
