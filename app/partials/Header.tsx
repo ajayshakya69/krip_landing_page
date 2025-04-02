@@ -14,7 +14,7 @@ export default function Header() {
       >
         <Image src="/kripLogo.png" alt="krip logo" width={150} height={70} />
         <Button>
-          <Link target="_blank" rel="noopener noreferrer" href="https://github.com">
+          <Link target="_blank" rel="noopener noreferrer" href="https://linktr.ee/krip.ai">
             Follow our Journey
           </Link>
         </Button>
